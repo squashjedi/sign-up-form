@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="script.js" defer></script>
+  <title>Sign Up Form</title>
+</head>
+
+<body>
+  <div class="page">
+    <div class="left-column">
+      <header>
+        <div class="banner">
+          <div class="background"></div>
+          <div class="logo">
+            <div>
+              <img src="images/odin-logo.png" height="100" alt="">
+            </div>
+            <div class="logo-text">ODIN</div>
+          </div>
+        </div>
+      </header>
+      <footer>
+        Photo by Halle West on Unsplash
+      </footer>
+    </div>
+    <div class="right-column">
+      <div class="content-top">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest
+          dreams.
+          <br/>Sign up
+          <span class="italic">now</span> to get started.</p>
+        <p>You
+          <span class="italic">know</span> you want to.</p>
+      </div>
+      <form>
+        <div class="form-content">
+          <h2>Let's do this!</h2>
+          <div class="fields-container">
+            <div>
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" value="">
+            </div>
+            <div>
+              <label for="lastName">last Name</label>
+              <input type="text" id="lastName" name="lastName" value="">
+            </div>
+          </div>
+          <div class="fields-container">
+            <div>
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" value="">
+            </div>
+            <div>
+              <label for="phoneNumber">Phone Number</label>
+              <input type="text" id="phoneNumber" name="phoneNumber" value="">
+            </div>
+          </div>
+          <div class="fields-container">
+            <div>
+              <label for="password">Password</label>
+              <input type="text" class="error" id="password" name="password" value="">
+              <div class="error-message">*Passwords do not match</div>
+            </div>
+            <div>
+              <label for="confirmPassword">Confirm Password</label>
+              <input type="text" class="error" id="confirmPassword" name="confirmPassword" value="">
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="submit">Create Account</button>
+      </form>
+      <div class="content-bottom">
+        Already have an account?
+        <a href="#">Log in</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
