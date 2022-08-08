@@ -43,32 +43,32 @@
           <div class="fields-container">
             <div>
               <label for="firstName">First Name</label>
-              <input type="text" id="firstName" name="firstName" value="">
+              <input type="text" id="firstName" name="firstName" required>
             </div>
             <div>
               <label for="lastName">last Name</label>
-              <input type="text" id="lastName" name="lastName" value="">
+              <input type="text" id="lastName" name="lastName" required>
             </div>
           </div>
           <div class="fields-container">
             <div>
               <label for="email">Email</label>
-              <input type="text" id="email" name="email" value="">
+              <input type="email" id="email" name="email" required>
             </div>
             <div>
               <label for="phoneNumber">Phone Number</label>
-              <input type="text" id="phoneNumber" name="phoneNumber" value="">
+              <input type="number" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
             </div>
           </div>
           <div class="fields-container">
             <div>
               <label for="password">Password</label>
-              <input type="text" class="error" id="password" name="password" value="">
+              <input type="password" class="error" id="password" name="password" required>
               <div class="error-message">*Passwords do not match</div>
             </div>
             <div>
               <label for="confirmPassword">Confirm Password</label>
-              <input type="text" class="error" id="confirmPassword" name="confirmPassword" value="">
+              <input type="password" class="error" id="confirmPassword" name="confirmPassword" required>
             </div>
           </div>
         </div>
